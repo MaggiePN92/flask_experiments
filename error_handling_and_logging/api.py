@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
-from feilhaandtering import InvalidAPIUsage
-from foo import Bar
+from error_handling_and_logging.feilhaandtering import InvalidAPIUsage
+from error_handling_and_logging.foo import Bar
 import logging
 
 

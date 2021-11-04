@@ -1,5 +1,5 @@
 import json
-from feilhaandtering import InvalidAPIUsage
+from error_handling_and_logging.feilhaandtering import InvalidAPIUsage
 import logging
 
 class Bar:
