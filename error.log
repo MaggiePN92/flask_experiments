@@ -1,0 +1,32 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2021 20:25:05] "POST /endpoint HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2021 20:25:07] "[31m[1mPOST /endpoint HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2021 20:25:09] "POST /endpoint HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2021 20:26:39] "POST /endpoint HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2021 20:26:41] "[31m[1mPOST /endpoint HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2021 20:26:43] "POST /endpoint HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2021 20:29:28] "POST /endpoint HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2021 20:29:30] "[31m[1mPOST /endpoint HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2021 20:31:01] "POST /endpoint HTTP/1.1" 200 -
+ERROR:root:Prøver å summere int og str.
+Traceback (most recent call last):
+  File "/Users/Magnus/Documents/flask_experiments/foo.py", line 11, in __init__
+    self.sum_of_list = sum([int(i) for i in some_data["vals"].split(",")])
+  File "/Users/Magnus/Documents/flask_experiments/foo.py", line 11, in <listcomp>
+    self.sum_of_list = sum([int(i) for i in some_data["vals"].split(",")])
+ValueError: invalid literal for int() with base 10: 'b'
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2021 20:31:03] "[31m[1mPOST /endpoint HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2021 20:31:05] "POST /endpoint HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2021 20:32:35] "POST /endpoint HTTP/1.1" 200 -
+ERROR:root:Prøver å summere int og str.
+Traceback (most recent call last):
+  File "/Users/Magnus/Documents/flask_experiments/foo.py", line 11, in __init__
+    self.sum_of_list = sum([int(i) for i in some_data["vals"].split(",")])
+  File "/Users/Magnus/Documents/flask_experiments/foo.py", line 11, in <listcomp>
+    self.sum_of_list = sum([int(i) for i in some_data["vals"].split(",")])
+ValueError: invalid literal for int() with base 10: 'b'
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2021 20:32:37] "[31m[1mPOST /endpoint HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2021 20:32:39] "POST /endpoint HTTP/1.1" 200 -
