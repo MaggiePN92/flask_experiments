@@ -9,5 +9,6 @@
     - https://docs.python.org/3/library/logging.html  
     - https://docs.python.org/3/howto/logging.html  
     - https://flask.palletsprojects.com/en/2.0.x/errorhandling/
+    - https://www.youtube.com/watch?v=ZsvftkbbrR0
 
 
